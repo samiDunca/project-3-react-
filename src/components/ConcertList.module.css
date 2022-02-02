@@ -1,0 +1,17 @@
+.concerts_container {
+  grid-row: 2 / span 3;
+  background-color: #fff;
+  overflow: scroll;
+}
+
+.concerts_elements_row {
+  padding: 1rem 4rem;
+  background-color: turquoise;
+  grid-row: 1 / span 1;
+  font-weight: 700;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+
+  display: grid;
+  grid-template-columns: 13rem repeat(4, 9rem) repeat(2, 7rem);
+}

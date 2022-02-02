@@ -1,0 +1,39 @@
+.concerts_row {
+  padding: 1.5rem 4rem;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+
+  display: grid;
+  grid-template-columns: 13rem repeat(4, 9rem) repeat(2, 7rem);
+}
+
+.btn_delete,
+.btn_update {
+  border: none;
+  color: #333;
+  font-size: inherit;
+  /* border-bottom: 1px solid currentColor; */
+  padding-bottom: 2px;
+  display: inline-block;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn_delete span,
+.btn_update span {
+  margin-left: 1px;
+  transition: margin-left 0.2s;
+}
+
+.btn_delete:hover span,
+.btn_update:hover span {
+  margin-left: 5px;
+}
+
+.btn_delete:hover {
+  color: #b90707;
+}
+.btn_update:hover {
+  color: #f1952c;
+}

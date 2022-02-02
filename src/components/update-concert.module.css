@@ -1,0 +1,67 @@
+/* .update_concert {
+  padding: 0 1rem;
+  background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+  border-radius: 1rem;
+
+  grid-row: 3 / span 1;
+} */
+
+.update_concert {
+  padding: 0 1rem;
+  background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+  border-radius: 1rem;
+
+  grid-row: 3 / span 1;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.update_display {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 2rem);
+  grid-gap: 1rem;
+}
+
+.input {
+  border: none;
+  background-color: inherit;
+  border-bottom: 0.12rem solid rgb(179, 172, 172);
+}
+
+.input:focus {
+  outline: none;
+  border-bottom: 0.12rem solid #333;
+}
+
+.submit_btn {
+  margin-top: 0.6rem;
+  margin-left: 1.2rem;
+  border: none;
+  color: #333;
+  font-size: inherit;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  display: inline-block;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.submit_btn span {
+  margin-left: 3px;
+  transition: margin-left 0.2s;
+}
+.submit_btn:hover {
+  color: #333;
+}
+.submit_btn:hover span {
+  margin-left: 8px;
+}
+
+.submit_btn:focus {
+  outline: none;
+  border: 1px solid #333;
+}

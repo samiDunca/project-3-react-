@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.create_display {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 2rem);
+  grid-gap: 1rem;
+}
+
+.invalid input {
+  border-bottom: 1px solid #d31d1d;
+}
+
+.invalid input:focus {
+  border-color: #d31d1d;
+  /* background-color: #fbe8d2; */
+}
